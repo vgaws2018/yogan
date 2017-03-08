@@ -18,7 +18,7 @@ echo "Mount Image for changes"
 
 guestmount -a $IMG -i $TMP_DIR
 
-if [ $? = "0" ]
+if [ $? = "0" ]; then
 echo "mounted successfully"
 fi
 
